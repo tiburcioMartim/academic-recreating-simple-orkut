@@ -1,0 +1,120 @@
+* {
+    /* padding: 0;
+    margin: 0; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+
+:root {
+    --varPink01: #efc8e8;
+    --varPink02: #e6268d;
+    --varText01: #555555;
+}
+
+body{
+    background-color: var(--varPink01);
+}
+
+.logo-orkut{
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto;
+    width: 400px;
+}
+
+.main{
+    background-color: rgb(252, 252, 252);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 440px;
+    width: 410px;
+    margin: 2rem auto 2rem auto;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 15px 0px #0000001f;
+    box-sizing: content-box;
+}
+
+.text-acessOrkut{
+    font-weight: bold;
+    color: var(--varText01);
+}
+
+.input-acess{
+    width: 350px;
+    padding: .5rem;
+    margin-top: 1rem;
+    border-radius: .5rem;
+    border: 1px solid silver;
+}
+
+.input-acess:hover{
+    border: 1px solid var(--varPink01);
+}
+
+.input-acess:focus{
+    border: 1px solid var(--varPink02);
+    outline: none;
+}
+
+.input-acess::placeholder{
+    color: silver;
+}
+
+.label-remamber-acess{
+    width: 350px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+.btn-checkbox{
+    cursor: pointer;
+}
+
+.btn-remamber-acess{
+    padding: 0;
+    margin: 0;
+}
+
+.btn-forget-password{
+    width: 350px;
+    margin-top: .5rem;
+    text-align: right;
+    text-decoration: none;
+    font-size: medium;
+    color: var(--varText01);
+}
+
+.btn-enter{
+    width: 350px;
+    padding: .5rem;
+    margin-top: 1rem;
+    background-color: var(--varPink02);
+    color: white;
+    border: none;
+    border-radius: .5rem;
+    font-weight: bold;
+    font-size: 1.125rem;
+    cursor: pointer;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4rem 0 0 0;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.links a,span{
+    padding-top: .5rem;
+    color: var(--varText01);
+    text-decoration: none;
+}
+
+.create-now, .color-pink{
+    color: var(--varPink02);
+}
